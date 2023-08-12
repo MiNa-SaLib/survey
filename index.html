@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>survey</title>
+</head>
+<script type=”text/javascript” Src=https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js>
+</script>
+<script type=”text/javascript”>
+   (function(){
+      Emailjs.init("mLr7X06JND6Z7swxf");
+   })();
+</script>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div class="one">
+                <h3>What’s your relationship with meat?</h3>
+                <input required type="radio" name="one" value="I love meat — I eat it all the time" class="btn-check"
+                    id="btn-check-1" autocomplete="off">
+                <label class="btn" for="btn-check-1">I love meat — I eat it all the time</label>
+
+                <input type="radio" name="one" value="I eat meat occasionally" class="btn-check" id="btn-check-2"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-2">I eat meat occasionally</label>
+
+                <input type="radio" name="one" value="I never eat meat" class="btn-check" id="btn-check-3"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-3">I never eat meat</label>
+                <p class="goto2 next btn btn-primary ">Next</p>
+
+
+            </div>
+            <div class="heidden two">
+                <h3>What’s your relationship with fish?</h3>
+                <input type="radio" name="two" value="I love fish — I eat it all the time" class="btn-check"
+                    id="btn-check-4" autocomplete="off">
+                <label class="btn" for="btn-check-4">I love fish — I eat it all the time</label>
+
+                <input type="radio" name="two" value="I eat fish occasionally" class="btn-check" id="btn-check-5"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-5">I eat fish occasionally</label>
+
+                <input type="radio" name="two" value="I never eat fish" class="btn-check" id="btn-check-6"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-6">I never eat fish</label>
+                <p class="goto3 next btn btn-primary">Next</p>
+                <p class="backto1 previous btn btn-danger">Previous</p>
+            </div>
+            <div class="heidden three">
+                <h3>What is your favorite veggies you eat?</h3>
+                <input type="radio" name="three" value="Carrots" class="btn-check" id="btn-check-7" autocomplete="off">
+                <label class="btn" for="btn-check-7">Carrots</label>
+
+                <input type="radio" name="three" value="Cucumber" class="btn-check" id="btn-check-8" autocomplete="off">
+                <label class="btn" for="btn-check-8">Cucumber</label>
+
+                <input type="radio" name="three" value="Tomatoes" class="btn-check" id="btn-check-9" autocomplete="off">
+                <label class="btn" for="btn-check-9">Tomatoes</label>
+                <p class="goto4 next btn btn-primary">Next</p>
+                <p class="backto2 previous btn btn-danger">Previous</p>
+            </div>
+            <div class="heidden four">
+                <h3>What kind of carbs and starchy foods don't you eat?</h3>
+                <input type="radio" name="four" value="Pasta" class="btn-check" id="btn-check-10" autocomplete="off">
+                <label class="btn" for="btn-check-10">Pasta</label>
+
+                <input type="radio" name="four" value="Rice" class="btn-check" id="btn-check-11" autocomplete="off">
+                <label class="btn" for="btn-check-11">Rice</label>
+
+                <input type="radio" name="four" value="Sweet potatoes" class="btn-check" id="btn-check-12"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-12">Sweet potatoes</label>
+                <p class="goto5 next btn btn-primary">Next</p>
+                <p class="backto3 previous btn btn-danger">Previous</p>
+            </div>
+            <div class="heidden five">
+                <h3>Which fruits don't you eat?</h3>
+                <input type="radio" name="five" value="Banana" class="btn-check" id="btn-check-13" autocomplete="off">
+                <label class="btn" for="btn-check-13">Banana</label>
+
+                <input type="radio" name="five" value="Apples" class="btn-check" id="btn-check-14" autocomplete="off">
+                <label class="btn" for="btn-check-14">Apples</label>
+
+                <input type="radio" name="five" value="Oranges" class="btn-check" id="btn-check-15" autocomplete="off">
+                <label class="btn" for="btn-check-15">Oranges</label>
+                <p class="goto6 next btn btn-primary">Next</p>
+                <p class="backto4 previous btn btn-danger">Previous</p>
+            </div>
+            <div class="heidden six">
+                <h3>How much time do you typically have for meal preparation per day?</h3>
+                <input type="radio" name="six" value="Uo to 30 minutes" class="btn-check" id="btn-check-16"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-16">Uo to 30 minutes</label>
+
+                <input type="radio" name="six" value="Uo to 1 hour" class="btn-check" id="btn-check-17"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-17">Uo to 1 hour</label>
+
+                <input type="radio" name="six" value="More than 1 hour" class="btn-check" id="btn-check-18"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-18">More than 1 hour</label>
+                <p class="goto7 next btn btn-primary">Next</p>
+                <p class="backto5 previous btn btn-danger">Previous</p>
+            </div>
+            <div class="heidden seven">
+                <h3>Do you eat breakfast?</h3>
+                <input type="radio" name="seven" value="Of course!" class="btn-check" id="btn-check-19"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-19">Of course!</label>
+
+                <input type="radio" name="seven" value="Sometimes" class="btn-check" id="btn-check-20"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-20">Sometimes</label>
+
+                <input type="radio" name="seven" value="No, I skip it" class="btn-check" id="btn-check-21"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-21">No, I skip it</label>
+                <p class="goto8 next btn btn-primary">Next</p>
+                <p class="backto6 previous btn btn-danger">Previous</p>
+            </div>
+            <div class="heidden eight">
+                <h3>How often could you exercise?</h3>
+                <input type="radio" name="eight" value="2 times a week" class="btn-check" id="btn-check-22"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-22">2 times a week</label>
+
+                <input type="radio" name="eight" value="3 times a week" class="btn-check" id="btn-check-23"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-23">3 times a week</label>
+
+                <input type="radio" name="eight" value="4 times a week" class="btn-check" id="btn-check-24"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-24">4 times a week</label>
+                <p class="goto9 next btn btn-primary">Next</p>
+                <p class="backto7 previous btn btn-danger">Previous</p>
+            </div>
+            <div class="heidden nine">
+
+                <h3>Do you practice sport?</h3>
+                <input type="radio" name="nine" value="Yes, Of course!" class="btn-check" id="btn-check-25"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-25">Yes, Of course!</label>
+
+                <input type="radio" name="nine" value="Sometimes" class="btn-check" id="btn-check-26"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-26">Sometimes</label>
+
+                <input type="radio" name="nine" value="no" class="btn-check" id="btn-check-30" autocomplete="off">
+                <label class="btn" for="btn-check-30">No</label>
+                <p class="goto10 next btn btn-primary">Next</p>
+                <p class="backto8 previous btn btn-danger">Previous</p>
+            </div>
+            <div class="heidden ten">
+                <h3>What is your favorite sport?</h3>
+                <input type="radio" name="ten" value="football" class="btn-check" id="btn-check-27" autocomplete="off">
+                <label class="btn" for="btn-check-27">Football</label>
+
+                <input type="radio" name="ten" value="Basketball" class="btn-check" id="btn-check-28"
+                    autocomplete="off">
+                <label class="btn" for="btn-check-28">Basketball</label>
+
+                <input type="radio" name="ten" value="Tennis" class="btn-check" id="btn-check-29" autocomplete="off">
+                <label class="btn" for="btn-check-29">Tennis</label>
+                <button class="next btn btn-primary ">Submit</button>
+                <p class="backto9 previous btn btn-danger">Previous</p>
+            </div>
+        </form>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
