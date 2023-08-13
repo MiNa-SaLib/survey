@@ -573,7 +573,7 @@ name9 = document.getElementsByName("nine");
 name10 = document.getElementsByName("ten");
 let val1, val2, val3, val4, val5, val6, val7, val8, val9, val10;
 
-
+/*
 
 
 document.querySelector("form").onsubmit = function (e) {
@@ -647,3 +647,5 @@ document.querySelector("form").onsubmit = function (e) {
     })
 
 }
+
+*/
